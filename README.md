@@ -1,6 +1,6 @@
-# Giiker SUPERCUBE Library
-A simple python library to interact with the BLE (Bluetooth Low Energy) interface of Giiker SUPERCUBE smart rubiks cubes.
-It was created by reverse engineerning the Giiker SUPERCUBE Android app (to be precise, the Lua code contained inside the Unity assets which are part of the APK).
+# GiiKER SUPERCUBE Library
+A simple python library to interact with the BLE (Bluetooth Low Energy) interface of GiiKER SUPERCUBE smart rubiks cubes.
+It was created by reverse engineerning the GiiKER SUPERCUBE Android app (to be precise, the Lua code contained inside the Unity assets which are part of the APK).
 
 ## Features
 - Cube discovery (see `scan.py`)
@@ -9,7 +9,7 @@ It was created by reverse engineerning the Giiker SUPERCUBE Android app (to be p
 - Real time move callbacks (called when a move is made on the rubiks cube, see `move_handler.py`)
 
 ## Demo Script
-The repository ships with a demo script, which provides a CLI interface to interact with a Giiker SUPERCUBE.
+The repository ships with a demo script, which provides a CLI interface to interact with a GiiKER SUPERCUBE.
 Ensure that your cube is within range of connectivity, and that it is disconnected before executing the script.
 
 The following commands are available (the first letter of each command can be used instead of typing out the full command):
